@@ -91,7 +91,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='https://t.me/M_Q_Q_Q')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/M_Q_Q_Q')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,text="جاري الفحص ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''متاح او مبند
