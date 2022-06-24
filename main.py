@@ -44,7 +44,7 @@ def hamo(message):
         bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/M_Q_Q_Q')t.me/M_Q_Q_Q
+        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/M_Q_Q_Q')
         mas.add(h7am0)
         bot.reply_to(message, '''لست مشترك في البوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
