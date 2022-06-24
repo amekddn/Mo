@@ -36,7 +36,7 @@ def hamo(message):
         us6 = types.InlineKeyboardButton(text='يوزر بوت شبه ثلاثي', callback_data='us6')
         us7 = types.InlineKeyboardButton(text='يوزر تساعي مميز', callback_data='us7')
         us8 = types.InlineKeyboardButton(text='يوزر ثماني مميز', callback_data='us8')
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/n_n_v')
+        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/n_t.me/M_Q_Q_Q
         mas.add(us0,us3,us4)
         mas.add(us2,us1,us6)
         mas.add(us5,us8,us7)
@@ -44,7 +44,7 @@ def hamo(message):
         bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/n_n_v')
+        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/n_n_v')t.me/M_Q_Q_Q
         mas.add(h7am0)
         bot.reply_to(message, '''لست مشترك في البوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
